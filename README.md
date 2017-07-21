@@ -2,12 +2,12 @@ This is a gulp plugin for ydui's rem2px.
 
 ## Installation
 
-Run `npm install ydcss-rem2px`
+Run `npm install ydui-rem2px`
 
 ## Usage
 
 ```js
-var rem2px = require('ydcss-rem2px');
+var rem2px = require('ydui-rem2px');
 
 gulp.task('css', function () {
     gulp.src(['css/**/*.css'])
@@ -21,7 +21,7 @@ gulp.task('css', function () {
 Pass in the base size as Number
 
 ```js
-var rem2px = require('ydcss-rem2px');
+var rem2px = require('ydui-rem2px');
 
 var baseSize = 100;
 
