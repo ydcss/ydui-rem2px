@@ -1,24 +1,18 @@
 {
-  "name": "ydcss-rem2px",
+  "name": "ydui-rem2px",
   "version": "1.0.0",
-  "description": "A gulp plugin for rem2px!",
-  "main": "index.js",
+  "description": "This is a gulp plugin for ydui's rem2px.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ydcss/ydcss-rem2px.git"
+    "url": "https://github.com/ydcss/ydui-rem2px"
   },
   "keywords": [
-    "css",
     "rem",
     "gulp",
     "rem2px"
   ],
-  "author": "YDCSS",
+  "author": "ydcss.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ydcss/ydcss-rem2px/issues"
-  },
-  "homepage": "https://github.com/ydcss/ydcss-rem2px",
   "dependencies": {
     "gulp-util": "^3.0.6",
     "rework": "^1.0.1",
