@@ -1,22 +1,31 @@
 {
-  "name": "ydui-district",
+  "name": "ydcss-rem2px",
   "version": "1.0.0",
-  "description": "Data of provinces, cities and counties in china. ",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build:jd": "node ./src/jd.js",
-    "build:gov": "node ./src/gov.js"
-  },
+  "description": "A gulp plugin for rem2px!",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ydcss/ydui-district.git"
+    "url": "https://github.com/ydcss/ydcss-rem2px.git"
   },
-  "author": "ydcss.com",
-  "license": "ISC",
+  "keywords": [
+    "css",
+    "rem",
+    "gulp",
+    "rem2px"
+  ],
+  "author": "YDCSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ydcss/ydcss-rem2px/issues"
+  },
+  "homepage": "https://github.com/ydcss/ydcss-rem2px",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "rework": "^1.0.1",
+    "through2": "^2.0",
+    "rework-visit": "^1.0.0"
+  },
   "devDependencies": {
-    "async": "^2.5.0",
-    "request": "^2.81.0"
+    "gulp": "*"
   }
 }
